@@ -1,0 +1,18 @@
+title: Add the OPNL License to your Repo
+description: >-
+  Add the OPNL License to your GitHub repository in support of open innovation
+  and ethical open source
+template:
+  repo: add-the-opnl-license-to-your-repo-template
+  name: add-the-opnl-license-to-your-repo
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
