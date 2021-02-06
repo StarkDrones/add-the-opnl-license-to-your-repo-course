@@ -6,10 +6,7 @@ template:
   repo: add-the-opnl-license-to-your-repo-template
   name: example-repo
   description: This project is licensed with the Open Innovation License (OPNL).
-before:
-  - type: createIssue
-    title: Welcome!
-    body: new-issue.md
+before: []
 steps:
   - title: First step
     description: The first step in your course
