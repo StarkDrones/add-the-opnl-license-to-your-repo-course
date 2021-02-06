@@ -3,7 +3,7 @@ description: >-
   Add the OPNL License to your GitHub repository in support of open innovation
   and ethical open source
 template:
-  repo: template-repo
+  repo: add-the-opnl-license-to-your-repo-template
   name: example-repo
   description: This project is licensed with the Open Innovation License (OPNL).
 before:
