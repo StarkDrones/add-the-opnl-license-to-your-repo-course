@@ -1,9 +1,6 @@
-This is the description we show on the course page [here](https://lab.github.com/StarkDrones/add-the-opnl-license-to-your-repo). This first paragraph will be featured at the top of the page so make it great.
-​
+This course is about how you can add the Open Innovation License to your GitHub repository. The Open Innnovation License is centered around open source and the concept of open innovation as well as ethical source.
 
-​
-Be sure to tell the learner about the technology you are teaching, why they should learn it, how they can use it, and what you will teach them.
-​
+# Open Innovation License
+The Open Innovation Open Source License promotes the idea of technology being used in order to make the world a better place. Not only this, but also many problems people have in regards to many different open source hardware and software offerings are tackled by lots of the terminology of this license. This license is partially inspired by many companies wanting to release technology into the world commercially that can still be used by others. It also aims to be easier to incorporate in terms of just a license file, instead of what can eventually become thousands of headers.
 
-
-Include information on how they can reach you for questions about the content or course. 
+[![npm](https://img.shields.io/npm/dt/opnl?label=OPNL%20Main)](https://www.npmjs.com/package/opnl) [![npm](https://img.shields.io/npm/dt/open-innovation-license?label=OPNL%20%20Secondary)](https://www.npmjs.com/package/open-innovation-license) [![npm](https://img.shields.io/npm/dt/opnl-2.0?label=OPNL-2.0%20Main)](https://www.npmjs.com/package/opnl-2.0) [![npm](https://img.shields.io/npm/dt/open-innovation-license-v2?label=OPNL-2.0%20Secondary)](https://www.npmjs.com/package/open-innovation-license-v2)
