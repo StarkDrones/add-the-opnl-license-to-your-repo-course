@@ -1,1 +1,3 @@
 Welcome to this course!
+
+You can create a new repository using the template [here](https://github.com/StarkDrones/add-the-opnl-license-to-your-repo-template) for the OPNL-2 License. If you decide to use the original OPNL, you can go [here](https://github.com/StarkDrones/OPNL). Once created, you can update the license file to include your copyright info in the copyright section. You can also update or delete the README, and add your project files.
