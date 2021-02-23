@@ -6,11 +6,23 @@ template:
   repo: add-the-opnl-license-to-your-repo-template
   name: example-repo
   description: This project is licensed with the Open Innovation License (OPNL).
-before: []
+before:
+  - type: createPullRequest
+    title: Add the OPNL License to your repostitory
+    body: 'https://github.com/StarkDrones/OPNLv2/blob/main/.github/LICENSE.md'
+    comments:
+      - >-
+        You can optionally add OPNL instead  of OPNL-2, this request is for the
+        OPNL-2 License.
+    head: Head
+    base: Base
 steps:
-  - title: First step
-    description: The first step in your course
-    event: issues.assigned
-    link: '{{ repoUrl }}'
+  - title: Download File
+    description: >-
+      Make sure the OPNL License file is downloaded, and please update
+      *Copyright © (YEAR) (Copyright Holder)* in your text editor
+    event: create
+    link: 'https://github.com/StarkDrones/OPNLv2/blob/main/.github/LICENSE.md'
     actions:
       - type: closeIssue
+    video: 'https://www.youtube.com/embed/-9JK6FOPn8w'
